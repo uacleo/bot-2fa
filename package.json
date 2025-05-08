@@ -1,0 +1,13 @@
+{
+  "name": "discord-2fa-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord para generar códigos 2FA TOTP sincronizados",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "otplib": "^12.0.1"
+  }
+}
